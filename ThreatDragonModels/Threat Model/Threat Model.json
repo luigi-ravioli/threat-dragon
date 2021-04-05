@@ -117,47 +117,6 @@
               }
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 170,
-                "y": 800
-              },
-              "target": {
-                "x": 1040,
-                "y": 130
-              },
-              "vertices": [
-                {
-                  "x": 23,
-                  "y": 530
-                },
-                {
-                  "x": 30,
-                  "y": 310
-                },
-                {
-                  "x": 190,
-                  "y": 110
-                },
-                {
-                  "x": 500,
-                  "y": 28
-                },
-                {
-                  "x": 680,
-                  "y": 28
-                },
-                {
-                  "x": 820,
-                  "y": 50
-                }
-              ],
-              "id": "9caca0f4-dcc3-42d7-8bbf-f02fbb6d290d",
-              "z": 6,
-              "attrs": {}
-            },
-            {
               "type": "tm.Process",
               "size": {
                 "width": 100,
@@ -1538,11 +1497,48 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1000,
+                "y": 138
+              },
+              "target": {
+                "x": 29,
+                "y": 587
+              },
+              "vertices": [
+                {
+                  "x": 800,
+                  "y": 126
+                },
+                {
+                  "x": 687,
+                  "y": 185
+                },
+                {
+                  "x": 452,
+                  "y": 219
+                },
+                {
+                  "x": 235,
+                  "y": 384
+                },
+                {
+                  "x": 38,
+                  "y": 433
+                }
+              ],
+              "id": "095793ff-f23f-4bb9-b8ae-191e9ac6c5e9",
+              "z": 50,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 1301.115234375,
+          "height": 2749.553466796875,
           "width": 1986.0001220703125
         }
       }
